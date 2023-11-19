@@ -5,6 +5,10 @@
   font-size: 13px;
 }
 
+.clear-fix{
+  clear: both;
+}
+
 html {
   overflow-x: hidden;
 }
@@ -117,7 +121,7 @@ nav img {
 
 .card4 {
   width: 84%;
-  margin: 100px auto;
+  margin: 150px auto;
   display: flex;
   flex-wrap: wrap;
 }
@@ -155,7 +159,7 @@ nav img {
 .card-img-overlay {
   display: flex;
   flex-direction: column;
-  margin-top: 15rem;
+  margin-top: 12rem;
   margin-left: 10rem;
 }
 
@@ -169,7 +173,9 @@ nav img {
     background-color: rgb(230, 231, 231);
     height: fit-content;
   }
+
 }
+
 
 .icons {
   width: 84%;
